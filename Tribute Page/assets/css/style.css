@@ -5,18 +5,32 @@ body {
     background: #ffffff;
     margin: 0 auto;
     padding: 0 auto;
-}
-
-#main { 
-    width: 100%;
-    margin: 0 auto;
     text-align: center;
+    
+    
 }
-
 #title {
+
     font-size: 3em;
     font-weight: 700;
     padding: 15px;
+    text-align: center;
+}
+
+#main { 
+    
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 800px;
+    vertical-align: middle;
+}
+#profile {
+    width: 45%;
+    margin: 0 auto;
+    vertical-align: middle;
 }
 
 #img-div {
@@ -25,7 +39,6 @@ body {
 }
 
 #image {
-    max-width: 1200px;
     width: 100%;
     display: block;
 }
@@ -37,27 +50,35 @@ body {
 }
 
 #tribute-info {
-    max-width: 1200px;
+    width: 45%;
     margin: 0 auto;
+    vertical-align: top;
+    /* flex-direction: row; */
 }
 
 #tribute-info > p {
     text-align: left;
     font-size: 1em;
-    margin: 20px 0;
+    margin-top: 0;
 }
 
+#cta {
+    display: flex;
+    flex-direction: column;  
+}
 #more-info {
-    width: 600px;
+    max-width: 600px;
     padding: 20px;
     background-color: blueviolet;
     border: 0;
     font-size: 30px;
     font-weight: bolder;
     color: #fff;
+    
 }
 
 #tribute-link {
     text-decoration: none;
     color: #ffffff;
+    
 }
